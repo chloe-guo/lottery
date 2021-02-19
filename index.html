@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>幹大事</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/p5.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+   <audio src="audio/start.mp3" id="startAudioHint">瀏覽器不支援</audio>
+   <audio src="audio/sound.mp3" id="audioHint">瀏覽器不支援</audio>
+    <div id="wrapper">
+        <div id="start">
+            <div id="bg"></div>
+            <div id="start_bg">
+                <img src="images/start_Bottom.png" alt="" class="start_bg start_point_b">
+                <div class="point_t_box">
+                    <img src="images/start_Top.png" alt="" class="start_bg start_point_t">
+                </div>
+            </div>
+            <div id="logo">
+                <img src="images/circle.png" alt="" class="start circle">
+                <img src="images/2019.png" alt="" class="start year2019">
+                <img src="images/newyear.png" alt="" class="start newyear">
+                <img src="images/start_title.png" alt="" class="start title">
+                <img src="images/start_en_title.png" alt="" class="start en_title">
+                <img src="images/start_light.png" alt="" class="start start_light start_light_animation">
+                <img src="images/start_light.png" alt="" class="into_light start">
+                <div class="into_big_light"></div>
+
+            </div>
+        </div>
+
+        <div id="bg"></div>
+        <div id="bg_object">
+            <img src="images/LeftTop.png" alt="" class="lt bg">
+            <img src="images/LeftBottom.png" alt="" class="lb bg">
+            <img src="images/RightTop.png" alt="" class="rt bg">
+            <img src="images/RightBottom.png" alt="" class="rb bg">
+            <img src="images/bigBall.png" alt="" class="l_ball bg">
+            <img src="images/bigBall.png" alt="" class="r_ball bg">
+            <img src="images/bigBall.png" alt="" class="c_ball bg">
+        </div>
+        <header></header>
+        <div id="turntable">
+            <img src="images/Ellipse.png" alt="" class="bigCircle">
+            <img src="images/Roulette.png" alt="" class="tableCicle">
+            <div class="yellowFrame">積少成多幹大事</div>
+            <div class="light"></div>
+            <div class="button"></div>
+            <div id="num">
+                <div class="tenDigits"></div>
+                <div class="digits"></div>
+            </div>
+            <div id="gameOver"></div>
+        </div>
+        <div id="winnerBox">
+        </div>
+        <div id="allWinner">
+            <div id="allWinnerBG"></div>
+            
+            <div id="allWinnerBox1">
+                <div id="allWinnerBox" class="box1">
+                    <div class="list" id="list1"></div>
+                    <div class="tenWinner" id="tenWinner1"></div>
+                </div>
+                <div id="allWinnerBox" class="box2">
+                    <div class="list" id="list2"></div>
+                    <div class="tenWinner" id="tenWinner2"></div>
+                </div>
+                <div id="allWinnerBox" class="box3">
+                    <div class="list" id="list3"></div>
+                    <div class="tenWinner" id="tenWinner3"></div>
+                </div>
+                <div id="allWinnerBox" class="box4">
+                    <div class="list" id="list4"></div>
+                    <div class="tenWinner" id="tenWinner4"></div>
+                </div>
+                <div id="allWinnerBox" class="box5">
+                    <div class="list" id="list5"></div>
+                    <div class="tenWinner" id="tenWinner5"></div>
+                </div>
+            </div>
+            
+            <div id="allWinnerBox2">
+                <div id="allWinnerBox" class="box6">
+                    <div class="list" id="list6"></div>
+                    <div class="tenWinner" id="tenWinner6"></div>
+                </div>
+                <div id="allWinnerBox" class="box7">
+                    <div class="list" id="list7"></div>
+                    <div class="tenWinner" id="tenWinner7"></div>
+                </div>
+                <div id="allWinnerBox" class="box8">
+                    <div class="list" id="list8"></div>
+                    <div class="tenWinner" id="tenWinner8"></div>
+                </div>
+                <div id="allWinnerBox" class="box9">
+                    <div class="list" id="list9"></div>
+                    <div class="tenWinner" id="tenWinner9"></div>
+                </div>
+                <div id="allWinnerBox" class="box10">
+                    <div class="list" id="list10"></div>
+                    <div class="tenWinner" id="tenWinner10"></div>
+                </div>
+            </div>
+            
+            
+            <img src="images/Listofwinners.png" alt="" id="showAllWinBtn">
+            <img src="images/arrow.png" alt="" class="showFiveNum">
+        </div>
+    </div>
+</body>
+
+</html>
